@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #8a51fc;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 20px auto;
+}
+
+main {
+  width: 375px;
+  background-color: blanchedalmond;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+  border-radius: 20px;
+}
+
+label {
+  color: #6e6e6e;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+select {
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f3f3f;
+  appearance: none;
+  cursor: pointer;
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid #d7d7d7;
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3f3f3f;
+}
+
+button {
+  background: linear-gradient(90deg, #8a51fc, #4e9afc);
+  border-radius: 5px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #4e9afc, #8a51fc);
+  color: rgb(127, 255, 127);
+  transition: background 0.3s;
+}
+
+button:active {
+  background: linear-gradient(90deg, #4e9afc, #8a51fc);
+  color: rgb(127, 255, 127);
+  transition: background 0.3s;
+}
+
+section {
+  border: 1px solid #d7d7d7;
+  border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-img {
+  margin: 15px 0;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.real {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.dolar {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+
+.real-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3f3f3f;
+}
+
+.dolar-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3f3f3f;
+}
